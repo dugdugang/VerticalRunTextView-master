@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.verticalruntextview.MainActivity">
+
+    <!--<com.test.verticalruntextview.TestView-->
+        <!--android:id="@+id/test"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <com.test.verticalruntextview.BezierView
+        android:id="@+id/bezier"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="控制点1"
+        android:onClick="c1"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:text="控制点2"
+        android:onClick="c2"
+        android:layout_height="wrap_content" />
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="show"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:onClick="onShow"-->
+        <!--android:layout_marginLeft="50dp"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="hide"-->
+        <!--android:layout_marginRight="50dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:onClick="onHide"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<com.test.verticalruntextview.PieView-->
+    <!--android:id="@+id/pieview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+</RelativeLayout>
